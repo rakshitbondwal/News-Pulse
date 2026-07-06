@@ -5,7 +5,6 @@ News Pulse is a live topic wire and news aggregator that fetches, processes, clu
 - **GitHub Repository**: [https://github.com/rakshitbondwal/News-Pulse](https://github.com/rakshitbondwal/News-Pulse)
 - **Live Frontend**: [https://news-pulse-dusky.vercel.app](https://news-pulse-dusky.vercel.app)
 - **Live Backend API**: [https://news-pulse-backend-hslx.onrender.com](https://news-pulse-backend-hslx.onrender.com)
-- **Video Walkthrough**: [[Insert Video Walkthrough Link Here]]
 
 ---
 
