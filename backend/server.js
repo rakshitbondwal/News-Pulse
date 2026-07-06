@@ -17,7 +17,7 @@ let db;
 const jobs = {};
 
 async function connectDB() {
-  const client = new MongoClient(MONGO_URI);
+  const client = new MongoClient(MONGO_URI, { family: 4 });
   await client.connect();
   db = client.db("newspulse");
   console.log("Connected to MongoDB");
