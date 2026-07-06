@@ -8,7 +8,7 @@ News Pulse is a live topic wire and news aggregator that fetches, processes, clu
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 The project is structured into three self-contained directories:
 
@@ -18,7 +18,7 @@ The project is structured into three self-contained directories:
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TD
@@ -39,7 +39,7 @@ News Pulse uses a modern, decoupled architecture:
 
 ---
 
-## 📊 Topic-Grouping (Clustering) Approach
+##  Topic-Grouping (Clustering) Approach
 
 ### Methodology
 The clustering system (`scraper/cluster.py`) groups articles using a **custom keyword-overlap algorithm**:
@@ -56,7 +56,7 @@ The clustering system (`scraper/cluster.py`) groups articles using a **custom ke
 
 ---
 
-## 📰 Supported News Sources
+##  Supported News Sources
 
 - **BBC News** (`http://feeds.bbci.co.uk/news/rss.xml`)
 - **NPR** (`https://feeds.npr.org/1001/rss.xml`)
@@ -64,7 +64,7 @@ The clustering system (`scraper/cluster.py`) groups articles using a **custom ke
 
 ---
 
-## 🔌 API Endpoints Documentation
+##  API Endpoints Documentation
 
 The Express server exposes the following JSON endpoints:
 
@@ -90,7 +90,7 @@ The Express server exposes the following JSON endpoints:
 
 ---
 
-## 🛠️ Local Setup & Configuration
+##  Local Setup & Configuration
 
 ### Prerequisites
 - Node.js (v18+)
